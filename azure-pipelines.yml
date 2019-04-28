@@ -3,6 +3,6 @@ jobs:
     parameters:
       name: Windows
       vmImage: vs2017-win2016
-      rustupToolchain32: stable-i686-pc-windows-gnu
-      rustupToolchain64: stable-x86_64-pc-windows-gnu
+      rustupToolchain32: stable-i686-pc-windows-msvc
+      rustupToolchain64: stable-x86_64-pc-windows-msvc
       version: 1.0
